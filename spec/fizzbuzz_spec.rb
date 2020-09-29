@@ -25,26 +25,11 @@ describe "fizzbuzz" do
   end
 end
 
-# def fizzbuzz (num)
-#   if num % 3 == 0
-#     return "Fizz"
-#   elsif num % 5 == 0
-#     return "Buzz"
-#   elsif (num % 3 == 0) && (num % 5 == 0)
-#     return "FizzBuzz"
-#   end
-
-def fizzbuzz(int)
-  if int % 3 == 0 && int % 5 == 0
-   return "FizzBuzz"
+def fizzbuzz (num)
+  if num % 3 == 0
+    return "Fizz"
+  elsif num % 5 == 0
+    return "Buzz"
+  elsif (num % 3 == 0) && (num % 5 == 0)
+    return "FizzBuzz"
   end
-
-  if int % 5 == 0
-   return "Buzz"
-  end
-
-  if int % 3 == 0
-   return "Fizz"
-  end
-
-end
